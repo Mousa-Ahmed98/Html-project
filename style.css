@@ -1,0 +1,121 @@
+body{
+    margin: 0px;
+    background-color: rgb(22, 22, 22);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar{
+    background-color: rgb(43, 43, 43);
+    overflow: hidden;
+    height: 55px;
+}
+#learning{
+    width: 65%;
+    float: left;
+    background-color: black;
+}
+.imgclass{
+    float: left;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+span a img{
+    float: left;
+    margin-right: 20px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(43, 43, 43);
+    padding: 0px;
+    margin: 0px;
+    margin-left: 250px;
+    overflow: hidden;
+}
+
+.navbar li{
+    color: white;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;    
+    padding-left: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+    font-size: 15px;
+    margin-left: 20px;
+    float: left;
+}
+/* div img{
+    border-radius: 10px;
+} */
+
+div div>img{
+    border-radius: 10px;
+}
+div span{
+    border-radius: 20px;
+}
+
+#studyplan{
+    border-radius: 10px;
+    background-color: rgb(43, 43, 43);
+    float: left; padding: 10px;
+    margin-right: 20px;
+    height: 70px;
+}
+#hr1{
+    color: grey;
+    size: 1px;
+}
+
+
+
+
+#search:focus-visible{
+    background-color: red;
+}
+
+.classification:hover{
+    color: black;
+    cursor: pointer;
+}
+
+
+.hard{
+    color: rgb(226, 51, 51);
+}
+
+.medium{
+    color: rgb(228, 155, 47);
+}
+
+.easy{
+    color: rgb(51, 226, 159); 
+}
+
+
+#section{
+    width: 57%;
+    height: 400px;
+    background-color: rgb(43, 43, 43);
+    margin-top: 63px;
+    border-radius: 10px;
+}
+
+.weekdays{
+    color: rgb(156, 156, 156);
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 12px;
+}
+
+.days{
+    color: rgb(202, 201, 201);
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: 11px;
+}
+
+.days:hover{
+    cursor: pointer;
+}
